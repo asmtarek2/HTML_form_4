@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#f4f4f4fa;
+}
+.bg{
+
+min-height: 100vh;
+
+margin: 57px 0;
+}
+.heading{
+
+}
+
+.heading h2{
+
+text-align: center;
+
+margin-bottom: 75px;
+
+font-size: 31px;
+
+text-transform: capitalize;
+
+font-weight: 500;
+}
+.main{
+
+width: 70%;
+
+margin: auto;
+
+display: flex;
+}
+.left{
+
+width: 50%;
+
+border-radius: 10px 0 0 10px;
+
+background-color: #fff;
+
+padding: 39px 11px 39px 39px;
+}
+.div_1{
+
+}
+
+.div_1 h3{
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.div_1 p{
+    
+color: #666666;
+    
+font-size: 17px;
+    
+line-height: 20px;
+    
+margin-bottom: 32px;
+}
+
+.address_info{
+
+display: flex;
+}
+.info_box{width: 176px;justify-content: unset;}
+.info_box h3{
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #CCCCCC;
+    font-size: 19px;
+}
+.info_box p{
+    
+font-size: 15px;
+    
+color: #666666fc;
+    
+margin-bottom: 30px;
+    
+margin-top: 10px;
+}
+
+.main_form{
+
+}
+.form{
+
+}
+
+.form form input{
+    width: 80%;
+    margin-bottom: 15px;
+
+padding: 5px 0px 15px 13px;
+
+border: 1px solid rgb(222, 222, 222);
+
+border-radius: 4px;
+
+width: 90%;
+
+font-family: 'Poppins', sans-serif;
+
+
+
+border: none;
+
+border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+font-size: 17px;
+
+outline: none;
+
+color: #fff;
+
+}
+.form form input[type="submit"]{
+    cursor: pointer;
+    transition: .5s;
+    width: auto;
+    padding: 15px 10px;
+    margin-bottom: 45px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #e3b04b;
+    border: none;
+
+    
+}
+
+.form form input[type="submit"]:hover{
+    
+color: #fff;
+    
+background-color: rgba(0, 0, 255, 0.921);
+
+    
+font-size: 18px; 
+    
+border: none;
+
+}
+.box a:hover{
+    
+    color: blue;
+    /* transition: 1.5s; */
+}
+
+.form form textarea{
+    width: 80%;
+    margin-bottom: 15px;
+
+padding: 5px 0px 15px 13px;
+
+border: 1px solid rgb(222, 222, 222);
+
+border-radius: 4px;
+
+width: 90%;
+
+font-family: 'Poppins', sans-serif;
+
+
+
+border: none;
+
+border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+font-size: 17px;
+
+outline: none;
+
+color: #fff;
+}
+/* .form form input:focus{
+
+    outline: none;
+    box-shadow: 0px 1px 3px 0px #333333b3;
+
+}
+
+.form form textarea:focus{
+    outline: none;
+    box-shadow: 0px 1px 3px 0px #333333b3; */
+
+    .form form input:focus, .form form textarea:focus {
+        outline: none;
+        box-shadow: 0px 1px 3px 0px #333333b3;}
+
+.div_last{
+
+}
+.direction{
+
+}
+
+.direction h2{text-transform: math-auto;font-size: 23px;font-weight: 400;margin-bottom: 10px;}
+
+.social_media{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 76%;
+}
+.box{
+    
+
+}
+.box a{
+
+text-decoration: none;
+
+color: #00000059;
+
+font-size: 16px;
+
+text-transform: capitalize;
+
+font-weight: 400;
+transition: 1.0s;
+}
+.box i{
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0px solid #11294acc;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 15%;
+    margin-top: 5%;
+    background-color: gray;
+}
+
+
+
+    
+
+.right{
+    background-image: url(../images/pink.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+
+
+}
+
+
+/* .icon i{
+    color: #f3f1f1;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0px solid #11294acc;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 15%;
+    margin-top: 5%;
+    background-color: #272a34e6;
+    
+} */
+
+
+
+
+
+
+
+
+
